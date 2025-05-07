@@ -25,10 +25,10 @@ This project is a simple **Library Management System** built using MySQL. It hel
 
 2. **Import SQL file:**
    - Open MySQL Workbench or your preferred SQL client.
-   - Use the `create_tables.sql` file in the `sql/` directory to set up the database schema:
+   - Use the `answers.sql` file in the `sql/` directory to set up the database schema:
 
      ```sql
-     SOURCE path_to_your_repo/sql/create_tables.sql;
+     SOURCE path_to_your_repo/sql/answers.sql
      ```
 
    This will create the necessary tables (`Books`, `Members`, `Authors`, `Categories`, and `Loans`) in the `LibraryDB` database.
